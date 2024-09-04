@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font styles */
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+
+.font-inter-light {
+  font-family: "Inter", sans-serif;
+  font-weight: 300; /* light */
+}
+
+.font-inter-medium {
+  font-family: "Inter", sans-serif;
+  font-weight: 500; /* medium */
+}
+
+.font-inter-bold {
+  font-family: "Inter", sans-serif;
+  font-weight: 700; /* bold */
+}

@@ -1,0 +1,741 @@
+[
+  {
+    "uid": 1,
+    "username": "john_doe",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 2,
+    "username": "jane_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 3,
+    "username": "alex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Lee",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 4,
+    "username": "sarah_jones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 5,
+    "username": "michael_brown",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },
+     { "uid": 6,
+    "username": "john_doe",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 7,
+    "username": "jane_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 8,
+    "username": "alex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Lee",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 9,
+    "username": "sarah_jones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 10,
+    "username": "michael_brown",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },
+    {  "uid": 11,
+    "username": "john_doe",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 12,
+    "username": "jassssne_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 13,
+    "username": "alex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Leewwwwwwwwwwwwww",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 14,
+    "username": "sarah_jssssones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 15,
+    "username": "michael_brown",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },    
+  {"uid": 16,
+    "username": "john_doe",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 17,
+    "username": "jane_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 18,
+    "username": "alex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Lee",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 19,
+    "username": "sarah_jones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 20,
+    "username": "michael_brown",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },    
+  {"uid": 21,
+    "username": "john_doed",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 22,
+    "username": "jane_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 23,
+    "username": "adlex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Lee",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 24,
+    "username": "sarah_jones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 25,
+    "username": "michael_brown",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },    
+  {"uid": 26,
+    "username": "jodddhn_doe",
+    "status": "Active",
+    "details": {
+      "name": "John Doe",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "US",
+      "contact_no": "+1 123-456-7890",
+      "email": "john.doe@example.com",
+      "work_email": "john.doe@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Human-Computer Interaction",
+      "subject": "HCI",
+      "year": 2023,
+      "desc": "Study on user interface design principles",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Designer",
+    "teams": ["Design", "Technology"]
+  },
+  {
+    "uid": 27,
+    "username": "jane_smith",
+    "status": "Active",
+    "details": {
+      "name": "Jane Smith",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "UK",
+      "contact_no": "+44 789-123-4567",
+      "email": "jane.smith@example.com",
+      "work_email": "jane.smith@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Responsive Web Design",
+      "subject": "Web Design",
+      "year": 2022,
+      "desc": "Exploring techniques for responsive web development",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Frontend Developer",
+    "teams": ["Technology", "Design"]
+  },
+  {
+    "uid": 28,
+    "username": "alex_lee",
+    "status": "Deactive",
+    "details": {
+      "name": "Alex Lee",
+      "dob":"29-04-2005",
+      "gender": "Non-binary",
+      "nationality": "Canada",
+      "contact_no": "+1 234-567-8901",
+      "email": "alex.lee@example.com",
+      "work_email": "alex.lee@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "Blockchain Applications",
+      "subject": "Blockchain",
+      "year": 2024,
+      "desc": "Researching decentralized finance applications",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Backend Developer",
+    "teams": ["Technology", "Finance", "Product", "Management", "Product", "Management"]
+  },
+  {
+    "uid": 29,
+    "username": "ddddsarah_jones",
+    "status": "Active",
+    "details": {
+      "name": "Sarah Jones",
+      "dob":"29-04-2005",
+      "gender": "Female",
+      "nationality": "Australia",
+      "contact_no": "+61 400-123-456",
+      "email": "sarah.jones@example.com",
+      "work_email": "sarah.jones@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "AI in Design",
+      "subject": "Artificial Intelligence",
+      "year": 2021,
+      "desc": "How AI impacts the design industry",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "UX Designer",
+    "teams": ["Design", "Product","Product", "Management"]
+  },
+  {
+    "uid": 30,
+    "username": "michael_brownaaaaaaaaaaaaaaaaaa",
+    "status": "Active",
+    "details": {
+      "name": "Michael Brown",
+      "dob":"29-04-2005",
+      "gender": "Male",
+      "nationality": "Germany",
+      "contact_no": "+49 123-456-789",
+      "email": "michael.brown@example.com",
+      "work_email": "michael.brown@company.com",
+      "image": "https://picsum.photos/200"
+    },
+    "research": {
+      "research_title": "User Experience Psychology",
+      "subject": "UX",
+      "year": 2020,
+      "desc": "Psychological principles behind UX design",
+      "link": "https://github.com/AyanAcharya"
+    },
+    "role": "Product Manager",
+    "teams": ["Product", "Management"]
+  },
+   {
+     "uid": 31,
+     "username": "michael_brownaaaaaaaaaaaaaaaaaa",
+     "status": "Active",
+     "details": {
+       "name": "Michael Brown",
+       "dob": "29-04-2005",
+       "gender": "Male",
+       "nationality": "Germany",
+       "contact_no": "+49 123-456-789",
+       "email": "michael.brown@example.com",
+       "work_email": "michael.brown@company.com",
+       "image": "https://picsum.photos/200"
+     },
+     "research": {
+       "research_title": "User Experience Psychology",
+       "subject": "UX",
+       "year": 2020,
+       "desc": "Psychological principles behind UX design",
+       "link": "https://github.com/AyanAcharya"
+     },
+     "role": "Product Manager",
+     "teams": ["Product", "Management"]
+   }
+]
